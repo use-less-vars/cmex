@@ -109,7 +109,7 @@
   (symbol (lib_id "Jojos_Lib:TPS62151") (at 97.79 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 866fa25e-9a89-4eff-a5ef-91a1605b56e6)
-    (property "Reference" "U?" (at 113.03 49.4283 0)
+    (property "Reference" "U2" (at 113.03 49.4283 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS62151" (at 113.03 51.9683 0)
@@ -147,7 +147,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b"
-          (reference "U?") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
