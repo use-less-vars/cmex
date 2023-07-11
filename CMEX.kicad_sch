@@ -64,7 +64,7 @@
     (fill (color 0 0 0 0.0000))
     (uuid f0e2f768-e007-42ca-a994-5073588a4ef2)
     (property "Sheetname" "AWAGS" (at 147.32 103.9364 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "awags.kicad_sch" (at 147.32 148.4126 0)
       (effects (font (size 1.27 1.27)) (justify left top))
