@@ -2161,7 +2161,7 @@
   (symbol (lib_id "power:GND") (at 109.22 75.184 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00036850-fb58-4c93-88c5-41f9159fc6d5)
-    (property "Reference" "#PWR03" (at 109.22 81.534 0)
+    (property "Reference" "#PWR09" (at 109.22 81.534 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 79.502 0)
@@ -2177,7 +2177,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2186,7 +2186,7 @@
   (symbol (lib_id "Jojos_Lib:R0402_6.19k") (at 109.22 112.522 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0073313e-3550-42c7-83ef-53a5dbb6aff7)
-    (property "Reference" "R8" (at 109.22 107.442 0)
+    (property "Reference" "R5" (at 109.22 107.442 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R0402_6.19k" (at 123.19 108.712 0)
@@ -2218,7 +2218,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "R8") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2227,7 +2227,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_100nF_50V") (at 64.262 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02137346-2d0b-4f6b-b52c-76e708f1ef79)
-    (property "Reference" "C8" (at 61.976 115.57 0)
+    (property "Reference" "C1" (at 61.976 115.57 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "C0402_100nF_50V" (at 70.612 116.84 90)
@@ -2253,7 +2253,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C8") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2262,7 +2262,7 @@
   (symbol (lib_id "Jojos_Lib:R0402_215k") (at 64.77 45.212 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02f2c9c2-52f0-4e59-9887-8086207f33ee)
-    (property "Reference" "R4" (at 62.865 43.942 90)
+    (property "Reference" "R1" (at 62.865 43.942 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R0402_215k" (at 60.96 31.242 0)
@@ -2294,7 +2294,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "R4") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2303,7 +2303,7 @@
   (symbol (lib_id "Jojos_Lib:L2.2uH") (at 78.74 45.974 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06bb6f9d-c853-4039-9062-5dc9fdc7327b)
-    (property "Reference" "U3" (at 80.01 44.958 90)
+    (property "Reference" "U1" (at 80.01 44.958 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2uH" (at 80.01 47.498 90)
@@ -2323,7 +2323,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2332,7 +2332,7 @@
   (symbol (lib_id "power:GND") (at 91.44 75.184 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 116a77c6-f0d0-4de8-be49-aeca6e3bedfb)
-    (property "Reference" "#PWR01" (at 91.44 81.534 0)
+    (property "Reference" "#PWR04" (at 91.44 81.534 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 79.502 0)
@@ -2348,7 +2348,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2357,7 +2357,7 @@
   (symbol (lib_id "Jojos_Lib:TPS62151") (at 182.118 63.754 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1514e5b2-3997-47cf-8d1d-f9cf07b99863)
-    (property "Reference" "U11" (at 197.358 52.2223 0)
+    (property "Reference" "U5" (at 197.358 52.2223 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS62151" (at 197.358 54.7623 0)
@@ -2395,7 +2395,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "U11") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -2404,7 +2404,7 @@
   (symbol (lib_id "power:GND") (at 80.518 133.858 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1726ad3b-6253-4f87-b5be-3fb2cd4066bb)
-    (property "Reference" "#PWR06" (at 80.518 140.208 0)
+    (property "Reference" "#PWR03" (at 80.518 140.208 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.518 138.43 0)
@@ -2420,7 +2420,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2429,7 +2429,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_22uF_6.3V") (at 222.758 62.484 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21607ed3-0d69-4763-95d6-1c81c723166d)
-    (property "Reference" "C67" (at 226.568 61.214 0)
+    (property "Reference" "C19" (at 226.568 61.214 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0402_22uF_6.3V" (at 229.108 62.484 90)
@@ -2455,7 +2455,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C67") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -2464,7 +2464,7 @@
   (symbol (lib_id "Jojos_Lib:TPS74801DRCR") (at 185.674 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26478b07-72df-4567-9fcb-2e359560a38f)
-    (property "Reference" "U1" (at 189.484 111.76 0)
+    (property "Reference" "U6" (at 189.484 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 185.674 119.38 0)
@@ -2495,7 +2495,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "U1") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -2504,7 +2504,7 @@
   (symbol (lib_id "power:GND") (at 204.47 136.398 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2df5f200-9f75-482a-9793-7c17a2a57568)
-    (property "Reference" "#PWR015" (at 204.47 142.748 0)
+    (property "Reference" "#PWR017" (at 204.47 142.748 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 140.97 0)
@@ -2520,7 +2520,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2529,7 +2529,7 @@
   (symbol (lib_id "power:GND") (at 127.508 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34a2d3ef-faab-4eac-bb5a-229954a06fd8)
-    (property "Reference" "#PWR011" (at 127.508 139.7 0)
+    (property "Reference" "#PWR012" (at 127.508 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127.508 137.922 0)
@@ -2545,7 +2545,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2554,7 +2554,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_330pF_25V") (at 109.22 66.294 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 357e0e85-f48c-466f-83dc-a71e43558897)
-    (property "Reference" "C13" (at 113.03 65.024 0)
+    (property "Reference" "C6" (at 113.03 65.024 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0402_330p_25V" (at 115.57 66.294 90)
@@ -2580,7 +2580,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C13") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2589,7 +2589,7 @@
   (symbol (lib_id "power:GND") (at 92.71 36.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cde99be-30aa-4665-abf2-4907c6688243)
-    (property "Reference" "#PWR056" (at 92.71 30.48 0)
+    (property "Reference" "#PWR05" (at 92.71 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.71 32.512 0)
@@ -2605,7 +2605,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2614,7 +2614,7 @@
   (symbol (lib_id "Jojos_Lib:R0402_100k") (at 160.782 49.784 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43293a58-4bf6-47f4-9343-7e3f4cf6bdfd)
-    (property "Reference" "R13" (at 162.687 48.514 90)
+    (property "Reference" "R9" (at 162.687 48.514 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R0402_100k" (at 156.972 35.814 0)
@@ -2646,7 +2646,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "R13") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2655,7 +2655,7 @@
   (symbol (lib_id "power:GND") (at 223.012 136.398 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 454771e4-be66-4b6f-a3bb-929ab25ee8bb)
-    (property "Reference" "#PWR017" (at 223.012 142.748 0)
+    (property "Reference" "#PWR020" (at 223.012 142.748 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.012 140.97 0)
@@ -2671,7 +2671,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2680,7 +2680,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_10uF_6.3V") (at 210.82 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4571cdb9-2b3b-44ab-8f2d-5ee426198c47)
-    (property "Reference" "C66" (at 213.614 64.77 0)
+    (property "Reference" "C17" (at 213.614 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0402_10uF_6.3V" (at 217.17 66.04 90)
@@ -2706,7 +2706,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C66") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -2715,7 +2715,7 @@
   (symbol (lib_id "Jojos_Lib:R0402_120k") (at 154.178 49.784 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47e05cd7-db4f-43f0-908e-8f8250e54499)
-    (property "Reference" "R12" (at 152.654 48.514 90)
+    (property "Reference" "R7" (at 152.654 48.514 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R0402_120k" (at 150.368 35.814 0)
@@ -2747,7 +2747,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "R12") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2756,7 +2756,7 @@
   (symbol (lib_id "power:GND") (at 66.04 122.428 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c3bccc7-ac37-4b5d-b383-934087419b42)
-    (property "Reference" "#PWR07" (at 66.04 128.778 0)
+    (property "Reference" "#PWR02" (at 66.04 128.778 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 127.254 0)
@@ -2772,7 +2772,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2781,7 +2781,7 @@
   (symbol (lib_id "Jojos_Lib:R0402_150k") (at 64.77 57.912 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52cd349c-8d78-4672-90b2-ca66d093014c)
-    (property "Reference" "R5" (at 62.23 56.642 90)
+    (property "Reference" "R2" (at 62.23 56.642 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R0402_150k" (at 60.96 43.942 0)
@@ -2813,7 +2813,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "R5") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2822,7 +2822,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_100nF_50V") (at 159.766 119.888 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57c6bee9-754b-4af4-9739-2f279b33cb42)
-    (property "Reference" "C1" (at 157.48 118.618 0)
+    (property "Reference" "C11" (at 157.48 118.618 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "C0402_100nF_50V" (at 166.116 119.888 90)
@@ -2848,7 +2848,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C1") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2857,7 +2857,7 @@
   (symbol (lib_id "Jojos_Lib:L2.2uH") (at 168.148 50.546 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 586b8ff0-984b-4168-a2e1-8a4cd086c790)
-    (property "Reference" "U2" (at 169.418 49.53 90)
+    (property "Reference" "U4" (at 169.418 49.53 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2uH" (at 169.418 52.07 90)
@@ -2877,7 +2877,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "U2") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2886,7 +2886,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_4.7uF_6.3V") (at 177.8 131.572 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e877d3d-e8c7-4a9a-9b9a-c50134f5ae9e)
-    (property "Reference" "C4" (at 180.34 130.302 0)
+    (property "Reference" "C14" (at 180.34 130.302 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0402_4.7uF_6.3V" (at 184.15 131.572 90)
@@ -2912,7 +2912,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C4") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -2921,7 +2921,7 @@
   (symbol (lib_id "power:GND") (at 108.966 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61187e6a-fbf6-4e4e-840f-bf6dac46f273)
-    (property "Reference" "#PWR09" (at 108.966 139.7 0)
+    (property "Reference" "#PWR08" (at 108.966 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 108.966 137.922 0)
@@ -2937,7 +2937,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2946,7 +2946,7 @@
   (symbol (lib_id "power:GND") (at 121.412 75.184 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65a3cf39-fabb-49c2-8a25-17ee0fc39bfc)
-    (property "Reference" "#PWR04" (at 121.412 81.534 0)
+    (property "Reference" "#PWR011" (at 121.412 81.534 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.412 79.502 0)
@@ -2962,7 +2962,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2971,7 +2971,7 @@
   (symbol (lib_id "Jojos_Lib:R0402_4.99k") (at 115.57 126.238 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 663c33c3-f613-4c35-9b46-faba39a5c5a8)
-    (property "Reference" "R9" (at 118.11 124.968 90)
+    (property "Reference" "R6" (at 118.11 124.968 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R0402_4.99k" (at 111.76 112.268 0)
@@ -3003,7 +3003,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "R9") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -3012,7 +3012,7 @@
   (symbol (lib_id "power:GND") (at 96.52 75.184 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6bacecb7-04c4-43e6-ad0a-7b6067512140)
-    (property "Reference" "#PWR02" (at 96.52 81.534 0)
+    (property "Reference" "#PWR06" (at 96.52 81.534 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 79.502 0)
@@ -3028,7 +3028,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3037,7 +3037,7 @@
   (symbol (lib_id "Jojos_Lib:R0402_105k") (at 94.488 104.648 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 705b6b90-ca87-43b3-854a-06937757f83e)
-    (property "Reference" "R7" (at 94.488 99.568 0)
+    (property "Reference" "R4" (at 94.488 99.568 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R0402_105k" (at 108.458 100.838 0)
@@ -3069,7 +3069,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "R7") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3078,7 +3078,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_4.7uF_6.3V") (at 67.818 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7148d67f-8b52-447b-a35a-4f46e9d6f4c6)
-    (property "Reference" "C9" (at 70.866 115.57 0)
+    (property "Reference" "C2" (at 70.866 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0402_4.7uF_6.3V" (at 74.168 116.84 90)
@@ -3104,7 +3104,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C9") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3113,7 +3113,7 @@
   (symbol (lib_id "Jojos_Lib:TPS62151") (at 92.71 59.182 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 798d1585-5baf-4c6b-af2f-552be4582874)
-    (property "Reference" "U5" (at 107.95 47.6503 0)
+    (property "Reference" "U3" (at 107.95 47.6503 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS62151" (at 107.95 50.1903 0)
@@ -3151,7 +3151,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "U5") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -3160,7 +3160,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_100nF_50V") (at 174.244 131.572 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 862d6450-83ae-4f74-9725-d8393afddb92)
-    (property "Reference" "C3" (at 171.704 130.302 0)
+    (property "Reference" "C13" (at 171.704 130.302 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "C0402_100nF_50V" (at 180.594 131.572 90)
@@ -3186,7 +3186,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C3") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3195,7 +3195,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_330pF_25V") (at 198.628 70.866 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e1b809a-86e4-4666-b8a4-81cf664d4476)
-    (property "Reference" "C65" (at 202.438 69.596 0)
+    (property "Reference" "C15" (at 202.438 69.596 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0402_330p_25V" (at 204.978 70.866 90)
@@ -3221,7 +3221,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C65") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -3230,7 +3230,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_4.7uF_6.3V") (at 225.044 112.014 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94a1662e-0456-4b84-86f5-d9f0876ef06a)
-    (property "Reference" "C7" (at 227.584 110.744 0)
+    (property "Reference" "C20" (at 227.584 110.744 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0402_4.7uF_6.3V" (at 231.394 112.014 90)
@@ -3256,7 +3256,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C7") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -3265,7 +3265,7 @@
   (symbol (lib_id "Jojos_Lib:R0402_22k") (at 154.178 62.484 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 985ea39a-05bc-421b-8705-25bd5174da2b)
-    (property "Reference" "R11" (at 152.654 61.214 90)
+    (property "Reference" "R8" (at 152.654 61.214 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R0402_22k" (at 150.368 48.514 0)
@@ -3297,7 +3297,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "R11") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3306,7 +3306,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_4.7uF_6.3V") (at 129.54 108.966 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98e5bcd3-4c03-440a-8024-0d26f3d8d09f)
-    (property "Reference" "C16" (at 132.08 107.696 0)
+    (property "Reference" "C9" (at 132.08 107.696 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0402_4.7uF_6.3V" (at 135.89 108.966 90)
@@ -3332,7 +3332,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C16") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3341,7 +3341,7 @@
   (symbol (lib_id "power:GND") (at 103.632 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a12cbc79-cefc-46e8-b222-149efd1365ac)
-    (property "Reference" "#PWR08" (at 103.632 139.7 0)
+    (property "Reference" "#PWR07" (at 103.632 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 103.632 137.922 0)
@@ -3357,7 +3357,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3366,7 +3366,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_560pF_10V") (at 204.47 129.794 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a62a4fcb-7ed6-4f1b-9793-a2402c391457)
-    (property "Reference" "C5" (at 207.264 129.794 90)
+    (property "Reference" "C16" (at 207.264 129.794 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "C0402_560p_10V" (at 210.82 129.794 90)
@@ -3392,7 +3392,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C5") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -3401,7 +3401,7 @@
   (symbol (lib_id "power:GND") (at 176.022 136.906 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abaf9aea-2db2-414b-9f3e-e989a4defce7)
-    (property "Reference" "#PWR013" (at 176.022 143.256 0)
+    (property "Reference" "#PWR015" (at 176.022 143.256 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.022 141.478 0)
@@ -3417,7 +3417,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3426,7 +3426,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_10uF_6.3V") (at 121.412 61.468 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6af8074-c4bd-497f-9491-70f345eccacd)
-    (property "Reference" "C14" (at 124.46 60.198 0)
+    (property "Reference" "C7" (at 124.46 60.198 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0402_10uF_6.3V" (at 127.762 61.468 90)
@@ -3452,7 +3452,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C14") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3461,7 +3461,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_100nF_50V") (at 78.74 128.524 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7fe05ce-ad29-4479-b6c5-d3361ff8a609)
-    (property "Reference" "C10" (at 76.2 127.254 0)
+    (property "Reference" "C3" (at 76.2 127.254 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "C0402_100nF_50V" (at 85.09 128.524 90)
@@ -3487,7 +3487,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C10") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3496,7 +3496,7 @@
   (symbol (lib_id "Jojos_Lib:R0402_100k") (at 71.374 45.212 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba85cd7c-f6d2-4425-9dcc-fdb7647188f1)
-    (property "Reference" "R6" (at 73.279 43.942 90)
+    (property "Reference" "R3" (at 73.279 43.942 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R0402_100k" (at 67.564 31.242 0)
@@ -3528,7 +3528,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "R6") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3537,7 +3537,7 @@
   (symbol (lib_id "power:GND") (at 133.35 75.184 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb9d5bcc-e5a0-48ff-8552-16967509c9fa)
-    (property "Reference" "#PWR05" (at 133.35 81.534 0)
+    (property "Reference" "#PWR013" (at 133.35 81.534 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 79.502 0)
@@ -3553,7 +3553,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3562,7 +3562,7 @@
   (symbol (lib_id "power:GND") (at 64.77 75.184 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd8966f8-346f-4ffc-aab5-a182aefe4e16)
-    (property "Reference" "#PWR018" (at 64.77 81.534 0)
+    (property "Reference" "#PWR01" (at 64.77 81.534 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 80.264 0)
@@ -3578,7 +3578,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3587,7 +3587,7 @@
   (symbol (lib_id "Jojos_Lib:TPS74801DRCR") (at 90.17 116.332 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6f4bb4a-4309-4ea7-a591-2009781dd9b6)
-    (property "Reference" "U4" (at 93.98 108.712 0)
+    (property "Reference" "U2" (at 93.98 108.712 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 90.17 116.332 0)
@@ -3618,7 +3618,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3627,7 +3627,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_4.7uF_6.3V") (at 82.296 128.524 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c82c5935-f91e-41cf-8a77-0302ea723b43)
-    (property "Reference" "C11" (at 84.836 127.254 0)
+    (property "Reference" "C4" (at 84.836 127.254 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0402_4.7uF_6.3V" (at 88.646 128.524 90)
@@ -3653,7 +3653,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C11") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3662,7 +3662,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_560pF_10V") (at 108.966 126.746 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb4a2439-3416-4789-88b9-585f63b63b91)
-    (property "Reference" "C12" (at 112.014 125.222 90)
+    (property "Reference" "C5" (at 112.014 125.222 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "C0402_560p_10V" (at 115.316 126.746 90)
@@ -3688,7 +3688,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C12") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3697,7 +3697,7 @@
   (symbol (lib_id "power:GND") (at 161.544 125.476 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd77b326-db3a-448e-a0d6-c79e1ee4686b)
-    (property "Reference" "#PWR012" (at 161.544 131.826 0)
+    (property "Reference" "#PWR014" (at 161.544 131.826 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 161.544 130.302 0)
@@ -3713,7 +3713,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3722,7 +3722,7 @@
   (symbol (lib_id "Jojos_Lib:R0402_4.99k") (at 211.074 129.286 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cdee23bc-e9cb-46da-9f35-d8b2117351f4)
-    (property "Reference" "R3" (at 213.614 128.016 90)
+    (property "Reference" "R12" (at 213.614 128.016 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R0402_4.99k" (at 207.264 115.316 0)
@@ -3754,7 +3754,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "R3") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3763,7 +3763,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_22uF_6.3V") (at 133.35 57.912 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfb9a376-122a-424e-890e-622587cf84f4)
-    (property "Reference" "C17" (at 137.16 56.642 0)
+    (property "Reference" "C10" (at 137.16 56.642 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0402_22uF_6.3V" (at 139.7 57.912 90)
@@ -3789,7 +3789,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C17") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -3798,7 +3798,7 @@
   (symbol (lib_id "power:GND") (at 211.582 41.402 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d129f8ba-2fd0-40f6-88f5-c235b18743ef)
-    (property "Reference" "#PWR020" (at 211.582 35.052 0)
+    (property "Reference" "#PWR019" (at 211.582 35.052 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.582 36.322 0)
@@ -3814,7 +3814,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3823,7 +3823,7 @@
   (symbol (lib_id "Jojos_Lib:R0402_105k") (at 189.992 107.696 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d43d272c-7ec4-40a6-8bc0-17ea31964d89)
-    (property "Reference" "R1" (at 189.992 102.616 0)
+    (property "Reference" "R10" (at 189.992 102.616 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R0402_105k" (at 203.962 103.886 0)
@@ -3855,7 +3855,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "R1") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -3889,7 +3889,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_100nF_50V") (at 220.98 112.014 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9120c14-95bf-4d57-97c7-930cfd5aafe7)
-    (property "Reference" "C6" (at 218.44 110.744 0)
+    (property "Reference" "C18" (at 218.44 110.744 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "C0402_100nF_50V" (at 227.33 112.014 90)
@@ -3915,7 +3915,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C6") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -3924,7 +3924,7 @@
   (symbol (lib_id "power:GND") (at 199.136 136.398 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e887f727-11df-463e-84d9-a29b0c98d5fb)
-    (property "Reference" "#PWR014" (at 199.136 142.748 0)
+    (property "Reference" "#PWR016" (at 199.136 142.748 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 199.136 140.97 0)
@@ -3940,7 +3940,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -3949,7 +3949,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_4.7uF_6.3V") (at 163.322 119.888 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8cdc331-cd4d-4b5c-aa6a-224a18f808c6)
-    (property "Reference" "C2" (at 166.37 118.618 0)
+    (property "Reference" "C12" (at 166.37 118.618 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0402_4.7uF_6.3V" (at 169.672 119.888 90)
@@ -3975,7 +3975,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C2") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -3984,7 +3984,7 @@
   (symbol (lib_id "power:GND") (at 211.074 136.398 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee621230-1865-43de-b827-e31caf145e07)
-    (property "Reference" "#PWR016" (at 211.074 142.748 0)
+    (property "Reference" "#PWR018" (at 211.074 142.748 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.074 140.97 0)
@@ -4000,7 +4000,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4009,7 +4009,7 @@
   (symbol (lib_id "Jojos_Lib:R0402_6.19k") (at 204.724 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f43518e9-62e2-4f99-8b7f-cca7ac100147)
-    (property "Reference" "R2" (at 204.724 110.49 0)
+    (property "Reference" "R11" (at 204.724 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R0402_6.19k" (at 218.694 111.76 0)
@@ -4041,7 +4041,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "R2") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -4050,7 +4050,7 @@
   (symbol (lib_id "Jojos_Lib:C0402_100nF_50V") (at 125.476 108.966 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc182552-8659-4cfd-b77d-c400d6823fbc)
-    (property "Reference" "C15" (at 122.936 107.696 0)
+    (property "Reference" "C8" (at 122.936 107.696 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "C0402_100nF_50V" (at 131.826 108.966 90)
@@ -4076,7 +4076,7 @@
     (instances
       (project "CMEX"
         (path "/03c4a148-37f4-4d5a-ada3-efb0d725ba7b/c5d85882-7f42-4413-996b-8b864785f647"
-          (reference "C15") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
