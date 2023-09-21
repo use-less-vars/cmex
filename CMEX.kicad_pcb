@@ -5335,6 +5335,8 @@
     )
   )
 
+  (gr_rect (start 165.4 140.725) (end 190.775 165.25)
+    (stroke (width 0.2) (type default)) (fill none) (layer "F.Cu") (tstamp ee6e3fdc-5b7e-46ed-9850-b5c7635d729c))
   (gr_rect (start 94.375 102.325) (end 120.55 111.325)
     (stroke (width 0.15) (type default)) (fill none) (layer "B.Paste") (tstamp be240934-6961-4a27-9774-d6364c890a63))
   (gr_rect (start 34.075 75.7) (end 104.425 110.875)
